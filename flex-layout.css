@@ -1,0 +1,112 @@
+*{
+    padding: 0rem;
+    margin: 0;
+    
+}
+
+.header{
+    background: grey;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem ;
+}
+
+.navitems{
+    display: flex;
+    flex-basis: 60%;
+}
+
+.navitems li{
+    flex-basis: 30%;
+    list-style: none;
+}
+
+.navitems li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.jumberton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+}
+
+.content-album{
+    
+    width: 30%;
+}
+
+.album{
+    display: flex;
+    justify-content: center;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail{
+    background: #fff;
+    padding:2rem;
+}
+
+.thumbnail-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.thumbnail-content .card{
+    flex-basis: 330px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+.thumbcard-text{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+}
+
+.thumbcard-description{
+    background: #fff;
+    padding: 1rem;
+}
+
+.thumbcard-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph{
+    margin-left: 8rem;
+}
+
+.backtotop{
+    margin-right: 13rem;
+}
